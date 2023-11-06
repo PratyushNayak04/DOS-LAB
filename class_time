@@ -1,0 +1,11 @@
+echo "Enter the day  : "
+read day 
+
+case $day in
+monday) echo "DOS LAB 4 -> 6 PM Room number : C - 126" ;;
+thursday) echo "DOS THEORY 1 -> 2 PM Room number : C - 109" ;;
+friday) echo "DOS THEORY 5 -> 6 PM Room number : C - 109" ;; 
+saturday) echo "DOS THEORY 1 -> 2 PM Room number : C - 109" ;;
+sunday) echo "HOLIDAY !!!" ;;
+*) echo "No class on the current day" ;;
+esac

@@ -1,0 +1,12 @@
+echo "Enter operand 1 : $1"
+echo "Enter operator : $2"
+echo "Enter operand 2 : $3"
+
+case $2 in 
++)echo "Sum is `expr $1 + $3`" ;; 
+-)echo "Differnce is `expr $1 - $3`" ;; 
+x)echo "Product is `expr $1 \* $3`" ;;
+/)echo "Quotient is `expr $1 / $3`" ;;
+%)echo "Remainder is `expr $1 % $3`" ;;
+*)echo "Enter a valid operator" ;;
+esac

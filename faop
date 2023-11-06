@@ -1,0 +1,17 @@
+echo "Enter first number : $1"
+echo "Enter second number : $2"
+
+add=`echo $1 + $2 |bc`
+echo "Sum of $1 and $2 = $add"
+
+sub=`echo $1 - $2 |bc`
+echo "Difference of $1 and $2 = $sub"
+
+mul=`echo $1 \* $2 |bc`
+echo "Product of $1 and $2 = $mul"
+
+div=`echo $1 / $2 |bc`
+echo "Division of $1 and $2 = $div"
+
+mod=`echo $1 % $2 |bc`
+echo "Remainder of $1 and $2 = $mod"

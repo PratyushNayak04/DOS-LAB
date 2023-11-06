@@ -1,0 +1,14 @@
+echo "Enter the selling price : "
+read sp 
+echo "Enter the cost price : "
+read cp
+if [ $sp -gt $cp ]
+    then 
+    echo "PROFIT"
+    prof=`expr $sp - $cp`
+    echo "Profit made is $prof"
+else
+    echo "LOSS"
+    loss=`expr $cp - $sp`
+    echo "Loss made is $loss"
+fi

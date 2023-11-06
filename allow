@@ -1,0 +1,11 @@
+echo "Enter the internal mark : "
+read im
+echo "Enter the attendance percentage : "
+read at
+
+if [ $im -ge 20 -a $at -ge 75 ]
+then 
+echo "Allowed"
+else
+echo "Not Allowed"
+fi

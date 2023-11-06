@@ -1,0 +1,12 @@
+echo "Enter first number : $1"
+echo "Enter second number : $2"
+add=`expr $1 + $2`
+echo "Sum of $1 and $2 = $add"
+sub=`expr $1 - $2`
+echo "Diff of $1 and $2 = $sub"
+mul=`expr $1 \* $2`
+echo "Product of $1 and $2 = $mul"
+div=`expr $1 / $2`
+echo "Division of $1 and $2 = $div"
+mod=`expr $1 % $2`
+echo "Remainder of $1 and $2 = $mod"

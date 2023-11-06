@@ -1,0 +1,11 @@
+echo "Enter file 1 : $1"
+echo "Enter file 2 : $2"
+cmp $1 $2 > newFile
+if [ ! -s newFile ]
+then 
+echo "Both the files are same . "
+rm "$2"
+echo "$2 is deleted succesfully . "
+else 
+echo "Both Files are different"
+fi
